@@ -1,7 +1,9 @@
 #include "perlin.cpp"
+#include "spaghetticlattices.cpp"
 
 // examples of initializing values for noisemap
 
+SpagettiLattices* map;
 Perlin* map;
 const uint16_t MAP_HEIGHT = 1000;
 const uint16_t MAP_WIDTH  = 1000;
